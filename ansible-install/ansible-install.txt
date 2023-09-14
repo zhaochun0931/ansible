@@ -5,3 +5,10 @@ ansible --version
 
 
 ansible localhost -m ping
+
+
+
+
+
+ansible localhost -m setup
+
