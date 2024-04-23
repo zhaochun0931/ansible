@@ -11,6 +11,7 @@ apt install ansible
 ansible --version
 ansible localhost -m ping
 
+ansible-inventory --list
 
 
 
