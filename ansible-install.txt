@@ -15,6 +15,11 @@ ansible localhost -m ping
 
 
 
+#
+/etc/ansible/hosts
+
+
+
 python3 -m pip install --user ansible
 
 
