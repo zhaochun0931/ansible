@@ -1,4 +1,16 @@
+# install
+apt update
+apt install software-properties-common
+add-apt-repository --yes --update ppa:ansible/ansible
+apt install ansible
+
+
+
+
 python3 -m pip install --user ansible
+
+
+
 
 
 ansible --version
