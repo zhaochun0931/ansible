@@ -7,8 +7,9 @@ apt install ansible
 
 
 
-
+# check ansible version
 ansible --version
+ansible localhost -m ping
 
 
 
@@ -22,7 +23,6 @@ python3 -m pip install --user ansible
 
 
 
-ansible localhost -m ping
 
 
 
