@@ -18,15 +18,16 @@ ansible-inventory --list
 #
 /etc/ansible/hosts
 
-
-
-python3 -m pip install --user ansible
-
+ansible all -m ping
 
 
 
 
 
+
+
+
+ansible-playbook ping-pl.yml
 
 
 
