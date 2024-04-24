@@ -10,7 +10,6 @@ apt install -y ansible
 # check ansible version
 ansible --version
 ansible localhost -m ping
-
 ansible-inventory --list
 
 
