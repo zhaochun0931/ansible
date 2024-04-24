@@ -28,6 +28,7 @@ ansible all -m ping
 
 
 ansible-playbook ping-pl.yml
+ansible-playbook ping-pl.yml --verbose
 
 
 
