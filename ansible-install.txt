@@ -29,9 +29,8 @@ ansible all -m ping
 
 ansible-playbook ping-pl.yml
 ansible-playbook ping-pl.yml --verbose
-
-
-
+ansible-playbook ping-pl.yml --list-tasks
+ansible-playbook ping-pl.yml --list-hosts
 
 
 
